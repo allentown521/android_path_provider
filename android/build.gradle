@@ -33,6 +33,7 @@ android {
     defaultConfig {
         minSdkVersion 16
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        namespace "com.mix1009.android_path_provider"
     }
     lintOptions {
         disable 'InvalidPackage'
